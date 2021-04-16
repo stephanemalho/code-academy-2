@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+/*               THIS COURSE IS DESKTOP ONLY 
+                        NO RESPONSIVE                      */
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+main > p {
+    text-align: center;
+    color: white;
+}
+main > p a {
+    color: aquamarine;
+    font-size: 16px;
+}
+video {
+    display: flex;
+    margin: auto;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+
+section p:nth-child(1) {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+} 
+section p:nth-child(3) {
+color: white;
+text-align: center;
+height: 20px;
+font-size: 20px;
+padding: 2%
+}
+section p:nth-child(3) a {
+    color: white;
+}
+section h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+footer {
+    color: gray;
+    text-align: right;
+    padding-right: 10px;
+}
