@@ -4,8 +4,24 @@
     box-sizing: border-box;
     background-color: black;
 }
-/*               THIS COURSE IS DESKTOP ONLY 
-                        NO RESPONSIVE                      */
+/* THIS COURSE IN NOT RESPONSIVE BUT I ADD SOME ROOLS IN MEDIA FOR SMALL SCREENS JUST FOR A BETTER ASPECT  */
+
+@media only screen and (max-width: 900px) {
+    #video video {
+        width: 80vw;
+        height: 45vw;
+    }
+    #img-container p img {
+        width: 80vw;
+        height: 45vw;
+
+    }
+    
+    #subscription p:nth-of-type(1) img {
+        width: 5vw;
+    }
+}
+
 header h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 50px;
@@ -13,43 +29,54 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    text-align: center;
+    padding: 30px 2%;
 }
-main > p {
+#video p {
     text-align: center;
     color: white;
 }
-main > p a {
+#video > p a {
     color: aquamarine;
     font-size: 16px;
 }
-video {
+#video video {
     display: flex;
     margin: auto;
 }
-h2 {
+#img-container h2 {
     color: white;
     text-align: center;
 }
 
-section p:nth-child(1) {
+#img-container p {
     color: white;
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    align-content: center;
+    text-align: center;
 } 
-section p:nth-child(3) {
+#subscription p:nth-of-type(1) {
 color: white;
 text-align: center;
-height: 20px;
 font-size: 20px;
 padding: 2%
 }
-section p:nth-child(3) a {
+#subscription p:nth-of-type(2) {
+color: white;
+text-align: center;
+padding: 2%;
+}
+#subscription p a {
     color: white;
 }
-section h2 {
-    font-size: 50px;
+#subscription .soon {
+    width: 80vw;
+    margin: auto;
+}
+#subscription .soon h3 {
+    font-size: 20px;
     color: white;
     text-align: center;
     padding-bottom: 5%;
